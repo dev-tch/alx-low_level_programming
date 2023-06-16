@@ -2,3 +2,4 @@
 - SCRIPT 1-last_digit.c
 - script 2-print_alphabet.c
 - script 3-print_alphabets.c
+- SCRIPT 4-print_alphabt.c
