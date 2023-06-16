@@ -3,3 +3,4 @@
 - script 2-print_alphabet.c
 - script 3-print_alphabets.c
 - SCRIPT 4-print_alphabt.c
+- script 5-print_numbers.c
