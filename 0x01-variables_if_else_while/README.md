@@ -1,10 +1,11 @@
 - SCRIPT 0-positive_or_negative.c : This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative
-- SCRIPT 1-last_digit.c
-- script 2-print_alphabet.c
-- script 3-print_alphabets.c
-- SCRIPT 4-print_alphabt.c
-- script 5-print_numbers.c
-- script 6-print_numberz.c
-- scrip 7-print_tebahpla.c
-- SCRIPT 8-print_base16.c
-- script 9-print_comb.c
+- program 1-last_digit.c
+- program 2-print_alphabet.c
+- program 3-print_alphabets.c
+- program 4-print_alphabt.c
+- program 5-print_numbers.c
+- program 6-print_numberz.c
+- program 7-print_tebahpla.c
+- program 8-print_base16.c
+- program 9-print_comb.c
+- program 101-print_comb4.c
