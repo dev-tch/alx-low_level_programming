@@ -6,3 +6,4 @@
 - script 5-print_numbers.c
 - script 6-print_numberz.c
 - scrip 7-print_tebahpla.c
+- SCRIPT 8-print_base16.c
