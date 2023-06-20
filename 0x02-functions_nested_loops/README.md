@@ -4,5 +4,6 @@
 - program 3-islower.c
 - program 4-isalpha.c
 - program 5-sign.c
+- program 6-abs.c
 
 
