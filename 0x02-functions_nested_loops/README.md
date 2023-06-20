@@ -6,5 +6,6 @@
 - program 5-sign.c
 - program 6-abs.c
 - program 7-print_last_digit.c
+- 8-24_hours.c
 
 
