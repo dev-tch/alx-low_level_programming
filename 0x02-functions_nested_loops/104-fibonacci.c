@@ -7,21 +7,21 @@
 
 int main(void)
 {
-int i;
+int  i;
 unsigned long fib1 = 1;
 unsigned long fib2 = 2;
 unsigned long fib3 = 0;
 unsigned long fib98;
 printf("%lu, ", fib1);
 printf("%lu, ", fib2);
-for (i = 3 ; i <= 100 ; i++)
+for (i = 3 ; i <= 98 ; i++)
 {
 fib3 = fib2 + fib1;
 fib1 = fib2;
 fib2 = fib3;
-if (i != 98)
+if (i < 98)
 printf("%lu, ", fib3);
-else
+if (i == 98)
 fib98 = fib3;
 }
 printf("%lu\n", fib98);
