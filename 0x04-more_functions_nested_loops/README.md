@@ -4,3 +4,5 @@
 - program 3-print_numbers.c
 - program 4-print_most_numbers.c
 - program 5-more_numbers.c
+- program 6-print_line.c
+- 7-print_diagonal.c
