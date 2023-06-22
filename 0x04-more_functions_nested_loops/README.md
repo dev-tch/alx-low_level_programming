@@ -1,2 +1,3 @@
 - program 0-isupper.c
 - program 1-isdigit.c
+- program 2-mul.c
