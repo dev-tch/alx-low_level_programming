@@ -8,3 +8,4 @@
 - program 7-print_diagonal.c
 - program 8-print_square.c
 - program 9-fizz_buzz.c
+- program 10-print_triangle.c
