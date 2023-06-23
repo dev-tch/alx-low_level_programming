@@ -7,3 +7,4 @@
 - program 6-print_line.c
 - program 7-print_diagonal.c
 - program 8-print_square.c
+- program 9-fizz_buzz.c
