@@ -19,8 +19,12 @@ sign = 1;
 maxbase = getBase2(n);
 }
 if (sign == 1)
+{
 _putchar('-');
-if (n <= 9 && n >= -9)
+if (n >= -9)
+n *= -1;
+}
+if (n >= 0 && n <= 9)
 _putchar(n + '0');
 else
 {
