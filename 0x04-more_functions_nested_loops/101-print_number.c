@@ -43,9 +43,7 @@ maxbase /= 10;
 int getBase(int n)
 {
 int maxbase;
-if (n >= 1000000000)
-maxbase = 1000000000;
-else if (n >= 100000000)
+if (n >= 100000000)
 maxbase = 100000000;
 else if (n >= 10000000)
 maxbase = 10000000;
