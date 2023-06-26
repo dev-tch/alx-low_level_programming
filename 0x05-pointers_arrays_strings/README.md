@@ -6,3 +6,4 @@
 - add program 5-rev_string.c
 - add program 6-puts2.c
 - add program 7-puts_half.c
+- add program 8-print_array.c
