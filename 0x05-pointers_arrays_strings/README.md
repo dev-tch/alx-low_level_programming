@@ -4,3 +4,4 @@
 - add program 3-puts.c
 - add progarm 4-print_rev.c
 - add program 5-rev_string.c
+- add program 6-puts2.c
