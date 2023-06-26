@@ -1,4 +1,5 @@
 - add program 0-reset_to_98.c
 - add program 1-swap.c
 - add program 2-strlen.c
-- add progra 3-puts.c
+- add program 3-puts.c
+- add progarm 4-print_rev.c
