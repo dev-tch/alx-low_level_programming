@@ -8,3 +8,4 @@
 - add program 7-puts_half.c
 - add program 8-print_array.c
 - add program 9-strcpy.c
+- add program 100-atoi.c
