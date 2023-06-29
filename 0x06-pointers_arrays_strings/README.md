@@ -2,3 +2,4 @@
 - add program 1-strncat.c
 - add program 2-strncpy.c
 - add program 3-strcmp.c
+- add program 4-rev_array.c
