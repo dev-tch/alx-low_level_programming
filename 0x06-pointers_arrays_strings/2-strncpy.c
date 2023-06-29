@@ -14,14 +14,14 @@ while (cpt < n)
 {
 if (*src == '\0')
 end_src = 1;
-if(end_src == 1)
+if (end_src == 1)
 *dest = '\0';
 else
 *dest = *src;
 dest++;
-if(end_src == 0 )
+if (end_src == 0)
 src++;
 cpt++;
 }
-return res;
+return (res);
 }
