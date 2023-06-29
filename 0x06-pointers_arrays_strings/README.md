@@ -3,3 +3,4 @@
 - add program 2-strncpy.c
 - add program 3-strcmp.c
 - add program 4-rev_array.c
+- add program 5-string_toupper.c
