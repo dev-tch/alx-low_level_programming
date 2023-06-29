@@ -1,3 +1,4 @@
 - add program 0-strcat.c
 - add program 1-strncat.c
 - add program 2-strncpy.c
+- add program 3-strcmp.c
