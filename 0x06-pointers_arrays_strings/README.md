@@ -5,3 +5,4 @@
 - add program 4-rev_array.c
 - add program 5-string_toupper.c
 - add program 6-cap_string.c
+- add program 7-leet.c
