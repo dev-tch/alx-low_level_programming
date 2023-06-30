@@ -10,10 +10,15 @@ char *res = str;
 while (str[i] != '\0')
 {
 char c = str[i];
-char base = (c >= 'a' && c <= 'z') ? 'a' : (c >= 'A' && c <= 'Z') ? 'A' : '\0';
-if (base != '\0')
+if (c >= 'a' && c <= 'z')
 {
-c = (c - base + 13) % 26 + base;
+c = 'a' + ((c - 'a' + 13) % 26);
+}
+else if (c >= 'A' && c <= 'Z')
+{
+c = 'A' + ((c - 'A' + 13) % 26);
+}
+
 str[i] = c;
 }
 i++;
