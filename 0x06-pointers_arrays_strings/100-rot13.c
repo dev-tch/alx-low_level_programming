@@ -6,16 +6,24 @@
 char *rot13(char *str)
 {
 int i = 0;
+int j = 0;
+char bases[] = {'a', 'z', 'A', 'Z'};
 char *res = str;
 while (str[i] != '\0')
 {
 char c = str[i];
-if (c >= 'a' && c <= 'z')
-c = 'a' + ((c - 'a' + 13) % 26);
-else if (c >= 'A' && c <= 'Z')
-c = 'A' + ((c - 'A' + 13) % 26);
+while (j < 4)
+{
+if (c >= bases[j]  && c <= bases[j + 1])
+{
+c = bases[j] + ((c - bases[j] + 13) % 26);
+break;
+}
+j = j + 2;
+}
 str[i] = c;
 i++;
+j = 0;
 }
 return (res);
 }
