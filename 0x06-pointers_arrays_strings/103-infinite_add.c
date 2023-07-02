@@ -24,7 +24,7 @@ n2++;
 n2--;
 while (i < size_r)
 { r++;
-*r = 'z';
+*r = '0';
 i++;
 }
 *r = '\0';
@@ -44,7 +44,7 @@ n2 = ((len2 <= 0) ? &val : n2 - 1);
 if (size_r  > 1)
 r--;
 }
-while (*r == 'z')
+while (*r == '0')
 r++;
 return (r);
 }
