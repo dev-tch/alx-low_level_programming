@@ -1,3 +1,4 @@
+#include <stddef.h>
 /**
 *_strchr - search first occurence of c character in string s
 *@s: string
@@ -7,7 +8,7 @@
 
 char *_strchr(char *s, char c)
 {
-char *res;
+char *res = NULL;
 while (*s)
 {
 if (*s == c)
