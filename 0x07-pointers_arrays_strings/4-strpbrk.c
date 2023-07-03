@@ -36,10 +36,5 @@ if (f != NULL)
 return (s);
 s++;
 }
-/*f = _strchr(accept, *s);
-accept = save_accept;
-if (f != NULL)
-return (s);*/
-
 return (NULL);
 }
