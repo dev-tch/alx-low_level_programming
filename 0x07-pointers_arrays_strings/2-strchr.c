@@ -7,7 +7,7 @@
 
 char *_strchr(char *s, char c)
 {
-char *res = '\0';
+char *res;
 while (*s)
 {
 if (*s == c)
