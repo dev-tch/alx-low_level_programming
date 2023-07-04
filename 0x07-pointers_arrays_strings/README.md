@@ -7,4 +7,5 @@
 - add program 7-print_chessboard.c
 - add program 8-print_diagsums.c
 - add program 100-set_string.c
+- add program 101-crackme_password
 
