@@ -6,4 +6,5 @@
 - add program 5-strstr.c
 - add program 7-print_chessboard.c
 - add program 8-print_diagsums.c
+- add program 100-set_string.c
 
