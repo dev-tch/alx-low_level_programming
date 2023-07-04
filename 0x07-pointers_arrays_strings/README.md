@@ -5,4 +5,5 @@
 - add program 4-strpbrk.c
 - add program 5-strstr.c
 - add program 7-print_chessboard.c
+- add program 8-print_diagsums.c
 
