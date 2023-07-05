@@ -2,4 +2,5 @@
 - add program 1-print_rev_recursion.c
 - add program 2-strlen_recursion.c
 - add program 3-factorial.c
+- add program 4-pow_recursion.c
 
