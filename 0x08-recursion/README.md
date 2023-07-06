@@ -4,4 +4,5 @@
 - add program 3-factorial.c
 - add program 4-pow_recursion.c
 - add program 5-sqrt_recursion.c
+- ass program 6-is_prime_number.c
 
