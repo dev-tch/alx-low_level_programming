@@ -1,2 +1,21 @@
-- create static library libmy.a && header main.h
+- add program to my lib :0-isupper.c  
+- add program to my lib :0-strcat.c  
+- add program to my lib :1-isdigit.c  
+- add program to my lib :1-strncat.c  
+- add program to my lib :2-strlen.c   
+- add program to my lib :3-islower.c  
+- add program to my lib :3-strcmp.c  
+- add program to my lib :4-isalpha.c  
+- add program to my lib :5-strstr.c  
+- add program to my lib :9-strcpy.c
+- add program to my lib :0-memset.c   
+- add program to my lib :100-atoi.c  
+- add program to my lib :1-memcpy.c   
+- add program to my lib :2-strchr.c   
+- add program to my lib :2-strncpy.c  
+- add program to my lib :3-puts.c     
+- add program to my lib :3-strspn.c  
+- add program to my lib :4-strpbrk.c  
+- add program to my lib :6-abs.c     
+- add program to my lib :_putchar.c
 
