@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 int sum = 0;
 int i;
-char *ptr_at_first_not__digit;
+char *ptr_at_first_not_digit;
 int nb;
 for (i = 1 ; i < argc ; i++)
 {
