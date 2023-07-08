@@ -20,6 +20,11 @@ if (argc != 2 || (argc == 2 && argv[1][0] != '0' &&  nb == 0))
 printf("Error\n");
 return (1);
 }
+if (nb < 0)
+{
+printf("0\n");
+return (0);
+}
 for (i = 0 ; i < 5 ; i++)
 {
 rem = nb % coins[i];
