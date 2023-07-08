@@ -15,7 +15,7 @@ int coins[5] = {25, 10, 5, 2, 1};
 /*my coins 25 10 5 2 1 */
 if (argc == 2)
 nb = atoi(argv[1]);
-if (argc != 2 || nb == 0)
+if (argc != 2 || (argc == 2 && argv[1][0] != '0' &&  nb == 0))
 {
 printf("Error\n");
 return (1);
