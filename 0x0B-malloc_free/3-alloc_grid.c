@@ -11,7 +11,7 @@ int **alloc_grid(int width, int height)
 int **grid = NULL;
 int i = 0, j = 0;
 if (width <= 0 || height <= 0)
-return (null);
+return (NULL);
 /*top array - lines */
 grid = (int **)malloc(height * sizeof(int *));
 if (grid == NULL)
