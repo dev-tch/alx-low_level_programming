@@ -19,7 +19,7 @@ len++;
 str++;
 }
 /* memory allocation*/
-cpy = (char *) malloc(len *sizeof(char));
+cpy = (char *) malloc((len + 1) * sizeof(char));
 if (cpy == NULL)
 return (NULL);
 for (i = 0 ; i < len ; i++)
