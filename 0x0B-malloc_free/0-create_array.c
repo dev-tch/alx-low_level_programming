@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
 /**
@@ -15,6 +14,8 @@ if (size == 0)
 return (NULL);
 /* memory allocation*/
 arr_char = (char *) malloc(size * sizeof(char));
+if (arr_char == NULL)
+return (NULL);
 for (i = 0 ; i < size ; i++)
 {
 arr_char[i] = c;
