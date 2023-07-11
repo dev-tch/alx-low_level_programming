@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
-* get_len - rrecursive functuion to return len of string
+* get_len - recursive functuion to return len of string
 * @str: string
 * Return: int
 */
