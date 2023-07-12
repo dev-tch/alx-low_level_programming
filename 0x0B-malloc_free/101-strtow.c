@@ -55,6 +55,8 @@ int word_idx = 0, len_wrd  = 0, i = 0, nb = 0;
 if (str == NULL ||  *str == '\0')
 return (NULL);
 nb = get_nb_words(bkp);
+if (nb == 0)
+return (NULL);
 tab = (char **) malloc((nb + 1) * sizeof(char *));
 if (tab == NULL)
 return (NULL);
