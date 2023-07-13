@@ -13,9 +13,9 @@ char *bkp = NULL;
 if (nmemb == 0 || size == 0)
 return (NULL);
 ptr = (char *) malloc(nmemb * size);
-bkp = ptr;
 if (ptr == NULL)
 return (NULL);
+bkp = ptr;
 while (*ptr)
 {
 *ptr = '0';
