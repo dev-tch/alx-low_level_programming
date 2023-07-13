@@ -22,16 +22,20 @@ return (1 + get_len(str + 1));
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *ptr  = NULL;
-char *bkp1 = s1;
-char *bkp2 = s2;
-char *bkp3 = NULL;
+char *bkp1 = s1, *bkp2 = s2, *bkp3 = NULL;
 unsigned int size_s1 = 0;
 unsigned int size_s2 = 0;
 unsigned int i       = 0;
 if (s1 == NULL)
+{
 s1 = "";
+bkp1 = "";
+}
 if (s2 == NULL)
+{
 s2 = "";
+bkp2 = "";
+}
 size_s1 = get_len(bkp1);
 size_s2 = get_len(bkp2);
 if (n >= size_s2)
