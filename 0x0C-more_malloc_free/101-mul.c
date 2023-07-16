@@ -107,6 +107,20 @@ str++;
 return (1);
 }
 /**
+* print - display string in console
+* @res   : string
+* Return: void
+*/
+void print(char *res)
+{
+while (*res)
+{
+_putchar(*res);
+res++;
+}
+_putchar('\n');
+}
+/**
 * main - multiply two numbers
 * @argc: number of arguments
 * @argv: array of arguments
@@ -123,11 +137,7 @@ test_dig2 = is_digit(argv[2]);
 if (test_dig == 0 || test_dig2 == 0)
 exit_program();
 result = multiply(argv[1], argv[2]);
-while (*result)
-{
-_putchar(*result);
-result++;
-}
-_putchar('\n');
+print(result);
+free(result);
 return (0);
 }
