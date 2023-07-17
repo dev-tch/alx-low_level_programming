@@ -1,2 +1,3 @@
 - add header file dog.h
 - add function 1-init_dog.c
+- add function 2-print_dog.c
