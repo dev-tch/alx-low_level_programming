@@ -7,12 +7,12 @@
 * @owner:attribute
 *  Description: hold the state of object dog
 */
-struct dog
+typedef struct dog
 {
 char *name;
 float age;
 char *owner;
-};
+} dog_t;
 #endif
 #ifndef H_DEF_FUNC
 #define H_DEF_FUNC myfunctions
