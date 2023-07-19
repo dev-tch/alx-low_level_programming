@@ -1,2 +1,3 @@
 - add 0-print_name.c && function_pointers.h
 - add 1-array_iterator.c
+- add 2-int_index.c
