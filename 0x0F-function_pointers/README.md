@@ -1,3 +1,4 @@
 - add 0-print_name.c && function_pointers.h
 - add 1-array_iterator.c
 - add 2-int_index.c
+- add 3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h
