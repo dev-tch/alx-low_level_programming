@@ -1,1 +1,2 @@
 - add 0-sum_them_all.c
+- add 1-print_numbers.c
