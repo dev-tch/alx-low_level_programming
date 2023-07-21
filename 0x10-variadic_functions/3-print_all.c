@@ -10,7 +10,10 @@ void print_str(va_list list)
 char *res;
 res = va_arg(list, char*);
 if (res == NULL)
+{
 printf("(nil)");
+return;
+}
 printf("%s", res);
 }
 /**
