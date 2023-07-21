@@ -1,5 +1,4 @@
-#include <stdarg.h>
-#define h_struct ok
+#include "variadic_functions.h"
 /**
 * sum_them_all - variadic function to make sum
 * @n: number of arguments
@@ -24,3 +23,4 @@ sum = sum +  va_arg(ptr, int);
 va_end(ptr);
 return (sum);
 }
+
