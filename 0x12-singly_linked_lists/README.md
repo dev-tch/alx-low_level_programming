@@ -2,5 +2,6 @@
 - add 1-list_len.c
 - add 2-add_node.c
 - add 3-add_node_end.c
+- add 4-free_list.c
 
 
