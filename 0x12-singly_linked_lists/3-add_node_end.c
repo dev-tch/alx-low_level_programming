@@ -22,6 +22,7 @@ if (new_node->str == NULL)
 free(new_node);
 return (NULL);
 }
+new_node->len = strlen(new_node->str);
 } /*if str!=NULL*/
 else
 {
