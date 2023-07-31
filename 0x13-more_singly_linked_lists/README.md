@@ -5,4 +5,5 @@
 - add 4-free_listint.c
 - add 5-free_listint2.c
 - add 6-pop_listint.c
+- add 7-get_nodeint.c
 
