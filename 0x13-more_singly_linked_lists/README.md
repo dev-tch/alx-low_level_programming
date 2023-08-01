@@ -8,4 +8,5 @@
 - add 7-get_nodeint.c
 - add 8-sum_listint.c
 - add 9-insert_nodeint.c
+- add 10-delete_nodeint.c
 
