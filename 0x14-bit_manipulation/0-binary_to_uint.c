@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 {
 int nb_digit = 0;
 unsigned int  sum = 0;
-unsigned int factor = 1;
+unsigned int factor = 0;
 int i = 0;
 
 nb_digit  = len_string(b);
@@ -30,10 +30,12 @@ return (0);
 for (i = nb_digit - 1 ; i >= 0; i--)
 {
 if (b[i] != '0' &&  b[i] != '1')
+{
 return (0);
+}
 if (b[i] == '1')
-sum += factor;
-factor *= 2;
+sum += 1 << factor;
+factor++;
 }
 return (sum);
 }
