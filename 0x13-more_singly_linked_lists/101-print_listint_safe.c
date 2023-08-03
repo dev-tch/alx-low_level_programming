@@ -13,7 +13,7 @@ if (head == NULL)
 return (0);
 while (head != NULL)
 {
-printf("[%p] %d\n", (void *) head, head->n);
+/*printf("[%p] %d\n", (void *) head, head->n);*/
 nb_nodes++;
 if (head <= head->next)
 {
@@ -25,7 +25,7 @@ head = head->next;
 if (cycle_detected)
 {
 head = head->next;
-printf("-> [%p] %d\n", (void *) head, head->n);
+/*printf("-> [%p] %d\n", (void *) head, head->n);*/
 nb_nodes++;
 exit(98);
 }
