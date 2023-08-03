@@ -4,7 +4,7 @@
 * @str: string
 * Return: length of string
 */
-int len_string(const char *str)
+unsigned long int len_string(const char *str)
 {
 if (*str == '\0')
 return (0);
@@ -18,8 +18,8 @@ return (1 + len_string(str + 1));
 
 unsigned int binary_to_uint(const char *b)
 {
-int nb_digit = 0;
-unsigned int long  sum = 0;
+unsigned long int nb_digit = 0;
+unsigned long int sum = 0;
 unsigned long int factor = 0;
 int i = 0;
 
