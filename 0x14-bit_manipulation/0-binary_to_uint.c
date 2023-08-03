@@ -21,7 +21,7 @@ unsigned int binary_to_uint(const char *b)
 unsigned long int nb_digit = 0;
 unsigned long int sum = 0;
 unsigned long int factor = 0;
-int i = 0;
+long int i = 0;
 
 nb_digit  = len_string(b);
 /*check b is null*/
