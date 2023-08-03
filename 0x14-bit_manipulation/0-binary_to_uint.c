@@ -1,9 +1,6 @@
-#include "main.h"
-
 /**
- * binary_to_uint - convert a string binary conatining 0 && 1 to unsigned int
- * @b: string binary.
- *
+ * binary_to_uint - convert a binary string contains(0 && 1) to unsigned int
+ * @b: string binary
  * Return: converted number or 0
  */
 unsigned int binary_to_uint(const char *b)
