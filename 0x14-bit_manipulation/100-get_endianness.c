@@ -2,7 +2,7 @@
 #define LIT_END  1
 /**
 * get_endianness - determine the type of ordering bytes
-* Return : (0 or 1)
+* Return: (0 or 1)
 */
 int get_endianness(void)
 {
