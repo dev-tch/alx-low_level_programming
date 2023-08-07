@@ -22,7 +22,7 @@ int file_des, ret_write, len, ret_close;
 file_des = ret_write = len = ret_close = 0;
 if (!filename)
 return (-1);
-file_des = open(filename, O_CREAT  |  O_WRONLY | O_TRUNC, 600);
+file_des = open(filename, O_CREAT  |  O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 if (file_des < 0)
 return (-1);
 len = _strlen(text_content);
