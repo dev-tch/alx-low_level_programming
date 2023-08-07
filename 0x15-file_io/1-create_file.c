@@ -25,6 +25,9 @@ return (-1);
 file_des = open(filename, O_CREAT  |  O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 if (file_des < 0)
 return (-1);
+/* Fix case text_content is NULL*/
+if (!text_content)
+text_content = "";
 len = _strlen(text_content);
 if (len > 0)
 {
