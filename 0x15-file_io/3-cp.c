@@ -5,6 +5,7 @@
 #define TEMPO_SIZE 1024
 static ssize_t get_text(char *filename, char **buffer, int file_des);
 static void copy_text(char *filename, int file_des, char *buffer, int len);
+void my_memset(char *buffer, int len_buf);
 /**
 * main - entry point
 * @argc: number of arguments
@@ -72,6 +73,11 @@ if (!(*buffer))
 dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
 exit(98);
 }
+else
+{
+/*clean the buffer befor read*/
+my_memset(*buffer, TEMPO_SIZE);
+}
 len_read = read(file_des, *buffer, TEMPO_SIZE);
 if (len_read  < 0)
 {
@@ -102,5 +108,20 @@ if (write(file_des, buffer, len) < 0)
 free(buffer);
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
 exit(99);
+}
+}
+/**
+* my_memset - set buffer with '\0'
+* @buffer: my buffer
+* @len_buf: size of buffer
+* Return: void
+*/
+void my_memset(char *buffer, int len_buf)
+{
+int i;
+for (i = 0; i < len_buf; i++)
+{
+*buffer = '\0';
+buffer++;
 }
 }
