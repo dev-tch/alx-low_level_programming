@@ -28,9 +28,9 @@ while (tmp != NULL)
 	{
 		new_node->prev = tmp;
 		new_node->next = tmp->next;
-		tmp->next = new_node;
 		if (tmp->next != NULL)
 			tmp->next->prev = new_node;
+		tmp->next = new_node;
 		return (new_node);
 	}
 	tmp = tmp->next;
