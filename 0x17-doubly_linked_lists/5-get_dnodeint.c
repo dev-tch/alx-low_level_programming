@@ -23,6 +23,7 @@ else
 			break;
 		}
 		tmp = tmp->next;
+		i++;
 	}
 }
 return (node);
